@@ -32,22 +32,25 @@ m.fit_bounds([[0, 0], [900, 1273]])
 marker_data = [
     {
         "loc": [122, 180],
-        "tooltip": "Fisher Y boiler room",
+        "tooltip": "Fisher Y boiler room<br>Capacity: 960kW<br>Installed: 2012",
         "poly": [],
     },
     {
-        "loc": [326, 70],
+        "loc": [5000, 70],
         "tooltip": "Squash courts",
         "poly": [],
     },
     {
         "loc": [172, 274],
-        "tooltip": "Cripps kitchen",
+        "tooltip": "Cripps kitchen<br>Capacity: 200kW<br>Installed: 1987",
         "poly": [],
     },
     {
         "loc": [180, 523],
-        "tooltip": "Porters' lodge",
+        "tooltip": "Porters' lodge<br>"
+        "Heating capacity: 6 kW<br>"
+        "Cooling capacity: 6 kW<br>"
+        "Installed: 2022",
         "poly": [],
     },
     {
@@ -150,7 +153,7 @@ window.addEventListener('load', function() {{
     }});
     marker.on('click', function() {{
       // Customize per‐marker click URL if you want:
-    'https://queens-energy.github.io/Plant-room-map/image' + i + '.jpg';
+    window.location.href = 'https://queens-energy.github.io/Plant-room-map/image' + i + '.jpg';
     }});
   }});
 }});
