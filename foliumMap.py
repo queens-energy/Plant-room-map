@@ -153,7 +153,7 @@ window.addEventListener('load', function() {{
     }});
     marker.on('click', function() {{
       // Customize per‐marker click URL if you want:
-    window.location.href = 'https://queens-energy.github.io/Plant-room-map/image' + i + '.jpg';
+    window.location.href = 'https://queens-energy.github.io/Plant-room-map/image' + i + '.png';
     }});
   }});
 }});
