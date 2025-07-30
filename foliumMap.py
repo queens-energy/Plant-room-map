@@ -62,7 +62,7 @@ marker_data = [
         ],
     },
     {
-        "loc": [5000, 70],
+        "loc": [326, 110],
         "tooltip": "Squash courts",
         "poly": [],
     },
