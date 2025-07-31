@@ -32,7 +32,7 @@ m.fit_bounds([[0, 0], [900, 1273]])
 marker_data = [
     {
         "loc": [122, 180],
-        "tooltip": "Fisher Y boiler room<br>Capacity: 960 kW<br>Installed: 2012",
+        "tooltip": "Fisher Y boiler room<br>Capacity: 2050 kW<br>Installed: 2012",
         "poly": [
             [142, 184],
             [137, 202],
@@ -64,7 +64,14 @@ marker_data = [
     {
         "loc": [326, 110],
         "tooltip": "Squash courts",
-        "poly": [],
+        "poly": [
+            [277, 88],
+            [327, 59],
+            [352, 77],
+            [379, 133],
+            [387, 156],
+            [332, 186],
+        ],
     },
     {
         "loc": [172, 274],
